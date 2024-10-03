@@ -1,0 +1,86 @@
+body {
+  background-image: linear-gradient(to bottom right, black, rgb(13, 13, 56));
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.messageBoxHolder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.messageBox {
+  height: 200px;
+  width: 400px;
+  border: 1px solid rgb(255, 255, 255);
+  box-shadow: 0 0 13px 2px rgba(255, 255, 255, 0.5);
+  background-image: linear-gradient(to bottom right, black, rgb(27, 27, 81));
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 30px;
+  justify-content: space-around;
+  min-width: 400px;
+  color: white;
+  transition: transform 0.4s ease-in;
+}
+.messageBox:hover {
+  transform: scale(1.1);
+  background-image: linear-gradient(to bottom right, rgb(27, 27, 81), black);
+  animation: bgChange 0.8s;
+  animation-fill-mode: forwards;
+}
+.newBtnHolder {
+  display: flex;
+  justify-content: center;
+}
+.newBtn {
+  background-color: black;
+  color: white;
+  height: 40px;
+  width: 70px;
+  box-shadow: 0 0 15px 2px rgba(255, 255, 255, 0.887);
+  transition: transform 0.3s ease-in-out;
+  font-size: large;
+}
+.newBtn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+h1 {
+  color: white;
+  padding-left: 230px;
+  padding-top: 20px;
+  text-shadow: 0 0 5px #ffffff;
+  transition: transform 0.5s ease-in;
+}
+h1:hover {
+  transform: scale(1.1);
+}
+.labels {
+  text-shadow: 0 0 4px #ffffff;
+  font-weight: 400;
+}
+
+@keyframes bgChange {
+  from {
+    background-image: linear-gradient(to bottom right, black, rgb(27, 27, 81));
+  }
+  20% {
+    background-image: linear-gradient(to bottom right, black, rgb(20, 20, 61));
+  }
+  40% {
+    background-image: linear-gradient(to bottom right, black, rgb(15, 15, 41));
+  }
+  60% {
+    background-image: linear-gradient(to bottom right, black, rgb(10, 10, 21));
+  }
+  80% {
+    background-image: linear-gradient(to bottom right, black, rgb(5, 5, 11));
+  }
+  to {
+    background-image: linear-gradient(to bottom right, black, rgb(0, 0, 0));
+  }
+}

@@ -1,0 +1,37 @@
+body {
+  background-image: linear-gradient(to bottom right, black, rgb(13, 13, 56));
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+  color: white;
+  padding-left: 100px;
+  padding-top: 20px;
+  text-shadow: 0 0 5px #ffffff;
+  transition: transform 0.5s ease-in;
+}
+h1:hover {
+  transform: scale(1.1);
+}
+label {
+  text-shadow: 0 0 4px #ffffff;
+  font-weight: 400;
+  color: white;
+}
+form {
+  padding-left: 100px;
+}
+input {
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+input[type="submit"] {
+  background-color: black;
+  color: white;
+  text-shadow: 0 0 4px #ffffff;
+  height: 30px;
+  width: 70px;
+  font-size: large;
+}
+input[type="submit"]:hover {
+  cursor: pointer;
+}
