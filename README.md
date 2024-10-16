@@ -3,7 +3,7 @@ that's why it might take some time to open the app.
 
 Kindly bear with it pls xD
 
-i have also added the DB funcitonality that means the messages are not stored in array anymore ,they are stored in postgresql , but they are in my local machine tsk tsk ,cuz render wont allow the DB in free tsk tsk
+i have also added the DB functionality that means the messages are not stored in array anymore ,they are stored in postgresql , but they are in my local machine tsk tsk ,cuz render wont allow the DB in free tsk tsk
 
 Pics in case website doesnt load :- 
 
